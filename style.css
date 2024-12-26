@@ -1,0 +1,73 @@
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+body{
+    margin: 0;
+    font-family: "Sofia", sans-serif;
+}
+.orange-color{
+    color: orange;
+}
+.half-width{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width:100%;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.link-button{
+    color: white;
+    background-image:linear-gradient(45deg,green,rgb(23, 227, 213));
+    font-weight: 700px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience{
+    margin-left: 7%;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,green,rgb(23, 227, 213));
+    border-image-slice: 1;
+
+}
+#internship{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,orange);
+    border-image-slice: 1;
+
+}
+footer p{
+    text-align:center;
+}
